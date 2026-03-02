@@ -20,7 +20,7 @@ export function Home() {
             </div>
             <div className="relative h-96 rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/images/hero.jpg"
+                src={import.meta.env.BASE_URL + 'images/hero.jpg'}
                 alt="Indoor plants in natural light"
                 className="w-full h-full object-cover"
               />

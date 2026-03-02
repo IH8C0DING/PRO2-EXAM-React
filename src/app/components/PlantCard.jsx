@@ -18,7 +18,7 @@ export function PlantCard({ plant }) {
     <div className="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
       {plant.imageUrl && (
         <img 
-          src={plant.imageUrl} 
+          src={import.meta.env.BASE_URL + plant.imageUrl} 
           alt={plant.commonName}
           className="w-full h-48 object-cover"
         />

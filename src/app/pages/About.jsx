@@ -21,7 +21,7 @@ export function About() {
           <div className="max-w-5xl mx-auto">
             <div className="relative h-96 rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/images/obout.jpg"
+                src={import.meta.env.BASE_URL + 'images/obout.jpg'}
                 alt="FlowerPlant community gardeners"
                 className="w-full h-full object-cover"
               />

@@ -7,7 +7,7 @@ export const predefinedPlants = [
     watering: 'When top 2-3 inches of soil are dry',
     soil: 'Well-draining, peat-based mix with perlite',
     level: 'Expert',
-    imageUrl: '/images/fiddle-leaf-fig.jpg',
+    imageUrl: 'images/fiddle-leaf-fig.jpg',
   },
   {
     id: 'snake-plant',
@@ -17,7 +17,7 @@ export const predefinedPlants = [
     watering: 'Every 2-3 weeks',
     soil: 'Well-draining cactus or succulent mix',
     level: 'Beginner',
-    imageUrl: '/images/snake-plant.jpg',
+    imageUrl: 'images/snake-plant.jpg',
   },
   {
     id: 'spider-plant',
@@ -27,7 +27,7 @@ export const predefinedPlants = [
     watering: 'Every 1-2 weeks',
     soil: 'Well-draining potting mix',
     level: 'Intermediate',
-    imageUrl: '/images/spider-plant.jpg',
+    imageUrl: 'images/spider-plant.jpg',
   },
   {
     id: 'peace-lily',
@@ -37,7 +37,7 @@ export const predefinedPlants = [
     watering: 'Weekly, keep soil moist',
     soil: 'Well-draining potting mix',
     level: 'Beginner',
-    imageUrl: '/images/peace-lily.jpg',
+    imageUrl: 'images/peace-lily.jpg',
   },
   {
     id: 'monstera',
@@ -47,7 +47,7 @@ export const predefinedPlants = [
     watering: 'Every 1-2 weeks',
     soil: 'Well-draining, peat-based mix',
     level: 'Intermediate',
-    imageUrl: '/images/monstera.jpg',
+    imageUrl: 'images/monstera.jpg',
   },
   {
     id: 'pothos',
@@ -57,6 +57,6 @@ export const predefinedPlants = [
     watering: 'Every 1-2 weeks',
     soil: 'Well-draining potting mix',
     level: 'Beginner',
-    imageUrl: '/images/pothos.jpg',
+    imageUrl: 'images/pothos.jpg',
   },
 ];
