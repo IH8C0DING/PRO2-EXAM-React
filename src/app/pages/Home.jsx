@@ -72,7 +72,14 @@ export function Home() {
               <PlantCard key={plant.id} plant={plant} />
             ))}
           </div>
-          
+          <div className="text-center mt-10">
+            <a
+              href="#/my-plants"
+              className="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-8 py-3 rounded-lg transition-colors"
+            >
+              View more plants
+            </a>
+          </div>
         </div>
       </section>
     </div>
