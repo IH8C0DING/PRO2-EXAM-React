@@ -74,7 +74,7 @@ export function Home() {
           </div>
           <div className="text-center mt-10">
             <a
-              href="#/my-plants"
+              href="/no-page"
               className="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-8 py-3 rounded-lg transition-colors"
             >
               View more plants
